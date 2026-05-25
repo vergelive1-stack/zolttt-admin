@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables (NEVER commit these)
+.env
+**/.env
+
+# Build output
+frontend/build/
+frontend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+pm2.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Firebase private key (sensitive)
+*private_key*.json
+*serviceAccount*.json
+firebase-adminsdk*.json
+
+# App secrets (contains API keys - never commit)
+backend/setting.js
